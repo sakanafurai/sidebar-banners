@@ -2,9 +2,9 @@
 	"author": "sakanafurai",
 	"email": "info@via.rossa.cc",
 	"website": "https://github.com/sakanafurai",
-	"version": "2025-03-14-dev",
-	"releaseDate": "",
-	"license": "",
+	"version": "1.0.0",
+	"releaseDate": "2025-03-14",
+	"license": "MIT",
 	"compatible": "3.16.2",
 	"notes": ""
 }
