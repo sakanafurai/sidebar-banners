@@ -110,23 +110,23 @@ class sidebarBanners extends Plugin
 	public function siteSidebar()
 	{
 		if ($this->getValue('bannerImgURL')) {
-			$bannerImg = '<a class="banner-1" href="' . $this->getValue('bannerLinkURL') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL') .'">'.PHP_EOL;
+			$bannerImg = '<a class="banner-1" href="' . $this->getValue('bannerLinkURL') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL') .'"></a>'.PHP_EOL;
 		}
 
 		if ($this->getValue('bannerImgURL2')) {
-			$bannerImg2 = '<a class="banner-2" href="' . $this->getValue('bannerLinkURL2') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL2') .'">'.PHP_EOL;
+			$bannerImg2 = '<a class="banner-2" href="' . $this->getValue('bannerLinkURL2') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL2') .'"></a>'.PHP_EOL;
 		}
 
 		if ($this->getValue('bannerImgURL3')) {
-			$bannerImg3 = '<a class="banner-3" href="' . $this->getValue('bannerLinkURL3') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL3') .'">'.PHP_EOL;
+			$bannerImg3 = '<a class="banner-3" href="' . $this->getValue('bannerLinkURL3') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL3') .'"></a>'.PHP_EOL;
 		}
 
 		if ($this->getValue('bannerImgURL4')) {
-			$bannerImg4 = '<a class="banner-4" href="' . $this->getValue('bannerLinkURL4') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL4') .'">'.PHP_EOL;
+			$bannerImg4 = '<a class="banner-4" href="' . $this->getValue('bannerLinkURL4') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL4') .'"></a>'.PHP_EOL;
 		}
 
 		if ($this->getValue('bannerImgURL5')) {
-			$bannerImg5 = '<a class="banner-5" href="' . $this->getValue('bannerLinkURL5') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL5') .'">'.PHP_EOL;
+			$bannerImg5 = '<a class="banner-5" href="' . $this->getValue('bannerLinkURL5') . '" target="_blank"><img src="'. $this->getValue('bannerImgURL5') .'"></a>'.PHP_EOL;
 		}
 		// コメントと開始タグを出力
 		echo '<!-- サイドバーバナー -->'.PHP_EOL;
