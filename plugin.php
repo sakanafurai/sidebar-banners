@@ -185,10 +185,12 @@ class sidebarBanners extends Plugin
 		}
 
 		//出力するコードの内容
-		$codeCSS  = '<!-- サイドバーバナー用CSS -->';
-		$codeCSS .= '<style>';
-		$codeCSS .= $bannerCustomCSS;
-		$codeCSS .= '</style>';
+		$codeCSS  = <<<EOF
+		<!-- サイドバーバナー用CSS -->
+		<style>
+		$bannerCustomCSS;
+		</style>
+		EOF;
 
 		return $codeCSS;
   }
