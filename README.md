@@ -7,7 +7,7 @@
 **サイドバー（siteSidebar）プラグイン対応のテーマでのみ動作します。**
 
 ## 設定方法
-プラグインを[ダウンロード](https://github.com/sakanafurai/sidebar-banners/releases/download/v1.0.0/sidebar-banners.zip)
+プラグインを[ダウンロード](https://github.com/sakanafurai/sidebar-banners/releases/download/v1.0.1/sidebar-banners.zip)
 
 1. zipファイルを解凍し、```sidebar-banners```フォルダを```bludit```ディレクトリ内の```bl-plugin```ディレクトリにコピーする。
 2. Bluditの管理画面の『プラグイン』のページで「サイドバーバナー」を有効化する。
