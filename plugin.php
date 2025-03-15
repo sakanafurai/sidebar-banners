@@ -171,6 +171,7 @@ class sidebarBanners extends Plugin
 			// カスタムCSSが入力されていないときは下記のおすすめ設定を使用
 			$bannerCustomCSS = <<<EOF
 		.banners {
+		  width: 200px;
 		  display: flex;
 		  flex-direction: row;
 		  flex-wrap: wrap;
