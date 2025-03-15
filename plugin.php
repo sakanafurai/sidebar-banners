@@ -97,8 +97,8 @@ class sidebarBanners extends Plugin
 		$html .= '<pre class="text-white p-2">';
 		$html .= '&lt;!-- サイドバーバナー --&gt<br>';
 		$html .= '&lt;div class=&quot;plugin banners&quot;&gt<br>';
-		$html .= '&lt;a class=&quot;banner-1&quot; href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://example.com/banner1.png&quot;&gt;<br>';
-		$html .= '&lt;a class=&quot;banner-2&quot; href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://example.com/banner2.png&quot;&gt;<br>';
+		$html .= '&lt;a class=&quot;banner-1&quot; href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://example.com/banner1.png&quot;&gt;&lt;/a&gt;<br>';
+		$html .= '&lt;a class=&quot;banner-2&quot; href=&quot;https://example.com&quot; target=&quot;_blank&quot;&gt;&lt;img src=&quot;http://example.com/banner2.png&quot;&gt;&lt;/a&gt;<br>';
 		$html .= '&lt;/div&gt;<br>';
 		$html .= '</pre>';
 		$html .= '</div>';
