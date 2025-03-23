@@ -188,7 +188,7 @@ class sidebarBanners extends Plugin
 		$codeCSS  = <<<EOF
 		<!-- サイドバーバナー用CSS -->
 		<style>
-		$bannerCustomCSS;
+		$bannerCustomCSS
 		</style>
 		EOF;
 
