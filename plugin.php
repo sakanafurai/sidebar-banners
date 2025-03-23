@@ -190,6 +190,7 @@ class sidebarBanners extends Plugin
 		<style>
 		$bannerCustomCSS
 		</style>
+
 		EOF;
 
 		return $codeCSS;
